@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * 类操作助手类
  */
-public class ClassHelper {
+public final class ClassHelper {
 
     /**
      * 定义类集合（用于存放所加载的类）
