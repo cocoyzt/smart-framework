@@ -11,6 +11,10 @@ public class Param {
 
     private Map<String, Object> paramMap;
 
+    public Param(Map<String, Object> paramMap) {
+        this.paramMap = paramMap;
+    }
+
     /**
      * 获取 long 型参数值
      * @param name
@@ -24,7 +28,7 @@ public class Param {
      * 获取所有字段信息
      * @return
      */
-    public Map<String, Object> getParamMap() {
+    public Map<String, Object> getMap() {
         return paramMap;
     }
 }
